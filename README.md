@@ -1,1 +1,1 @@
-# gridlex-test
+# template-gridlex

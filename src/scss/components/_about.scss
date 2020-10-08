@@ -1,0 +1,10 @@
+.about {
+    &__header {
+        @include flexCenter;
+    }
+
+    &__copy {
+        text-align: center;
+    }
+
+}

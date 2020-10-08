@@ -1,0 +1,31 @@
+// Mixin flex content
+@mixin flex {
+    display: flex;
+    display: -ms-flexbox;
+}
+
+@mixin flexHorizontal {
+    @include flex;
+    align-items: center;
+}
+
+@mixin flexVerical {
+    @include flexHorizontal;
+    flex-direction: column;
+}
+
+@mixin flexCenter {
+    @include flexVerical;
+    justify-content: center;
+}
+
+
+@mixin flexBetween {
+    @include flex;
+    justify-content: space-between;
+}
+
+@mixin flexJustifyCenter {
+    @include flex;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+//#settings
+@import 'partials/resset';
+@import 'partials/variables';
+
+
+//#base styles
+@import 'partials/base';
+@import 'partials/mixin';
+
+//#components
+@import 'components/navigation';
+@import 'components/about';
+@import 'components/portfolio';

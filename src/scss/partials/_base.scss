@@ -1,0 +1,27 @@
+// ================================================
+// COMPONENT VARIABLES
+// ================================================
+
+html,
+body {
+    height: 100%;
+}
+[class*=grid-], [class*=grid_], [class~=grid] {
+    margin: 0;
+}
+
+section {
+    padding: 3rem 0 2rem;
+}
+
+main {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -29px;
+}
+
+footer {
+    clear: both;
+    height: 29px;
+}
