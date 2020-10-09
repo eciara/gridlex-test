@@ -21,6 +21,20 @@ main {
     margin-bottom: -29px;
 }
 
+.post {
+    &__header {
+        text-align: center;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 2;
+        letter-spacing: 1px;
+    }
+    
+}
+
 footer {
     clear: both;
     height: 29px;
