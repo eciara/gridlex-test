@@ -1,14 +1,41 @@
 //===================================================
 // GLOBAL VARIABLES
 //===================================================
-// Base
 
-
-
+// Font-size 
+$golden-ratio: 1.333;
+$base-font-size: 1rem;
+$font-size-1: $base-font-size;
+$font-size-2: $font-size-1 * $golden-ratio; //1.33
+$font-size-3: $font-size-2 * $golden-ratio; //1.77
+$font-size-4: $font-size-3 * $golden-ratio; //2.35
+$font-size-5: $font-size-4 * $golden-ratio; //3.13
+$font-size-6: $font-size-5 * $golden-ratio; //4.17
+$font-small: 0.90rem;
 
 // Colors
-
-
+$font-color-base: #141414;
+$font-color-white: #fff;
+$bg-hover: rgba(103,213,181,0.8);
+$bg-dark: rgba(14,14,14,.95);
+$bg-light: #f7f5f5;
 // Fonts
 
+
+//===================================================
+//    media query
+//===================================================
 //media query
+$extra-small: 'screen and (max-width: 450px)';
+$small: 'screen and (max-width: 576px)';
+$min-tablet: 'screen and (min-width: 768px)'; //mediuym
+$max-tablet: 'screen and (max-width: 767px)';
+$tablet: 'screen and (max-width: 991px)';
+$large: 'screen and (min-width: 992px)';
+
+
+
+
+
+
+
