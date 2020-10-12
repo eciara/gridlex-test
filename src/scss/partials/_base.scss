@@ -13,38 +13,74 @@ body {
     font-size: $base-font-size;
     color: $font-color-base;
     overflow-x: hidden;
+    font-family: $font-body;
 }
-
 
 section {
-    padding: 3rem 0 2rem;
+    padding: 4rem 0;
 }
 
-main {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin-bottom: -29px;
+p {
+    line-height: 150%;
 }
 
-.post {
+a {
+    text-decoration: none;
+}
+
+.page {
     &__header {
         text-align: center;
+        font-family: $font-header;
     }
+
     &__title {
         text-transform: uppercase;
         font-weight: 600;
-        font-size: 1.25rem;
-        line-height: 2;
+        padding-bottom: 3rem;
         letter-spacing: 1px;
-        font-size: $font-size-3;
+        font-size: $font-size-2;
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            margin: 0 auto;
+            background-color: $bg-icon;
+            width: 5rem;
+            height: 2px;
+            top: 2.25rem;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            margin: 0 auto;
+            background-color: $bg-icon;
+            width: 10px;
+            height: 10px;
+            top: 2rem;
+            border-radius: 50%;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
     }
-    
+
+    &__subtitle {
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 2rem 0;
+        font-family: $font-header;
+    }
+
+    &__copy {
+      
+    }
 }
 
 footer {
     clear: both;
     height: 29px;
 }
-
-

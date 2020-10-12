@@ -1,0 +1,124 @@
+header {
+    background-color: $bg-dark;
+    padding-top: 20px;
+    width: 100%;
+    height: 2.75rem;
+}
+
+.navigation {
+    @media #{$medium} {
+        text-align: right;
+        padding-right: 1rem;
+    }
+    &__logo {
+        color: #fff;
+    }
+
+    &__list {
+        @media #{$small} {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            transform: translate(100%, 0);
+            -webkit-transform: translate(100%, 0);
+            -moz-transform: translate(100%, 0);
+            position: relative;
+            transition: 1s ease-in-out;
+            padding-top: 2rem;
+            background-color: $bg-dark;
+        }
+    }
+
+    &__item {
+        text-align: center;
+        
+        @media #{$small} {
+            padding: 1rem;
+        }
+
+        a {
+            color: #fff;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $bg-icon;
+            }
+        }
+
+    }
+
+    &__icon {
+        border: none;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        cursor: pointer;
+        width: 40px;
+        height: 35px;
+        border-top: 5px solid #fff;
+        background: transparent;
+        transition: .3s transform linear;
+        outline: none;
+        display: none;
+
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            border-top: 5px solid #fff;
+        }
+
+        &:after {
+            transform: translateY(25px);
+            transition: 0.3s transform linear;
+        }
+
+        &:before {
+            transform: translateY(10px);
+        }
+
+        @media #{$small} {
+            display: flex;
+        }
+    }
+
+}
+
+.navigation.menu-open {
+    transition: .5s all linear;
+    height: 100%;
+}
+
+.menu-open {
+    .navigation__list {
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        display: flex;
+    }
+
+    .navigation__icon {
+        &:focus {
+            transform: rotate(45deg) translateX(5px);
+            border: none;
+            outline: none;
+
+            &:after {
+                transform: rotate(-90deg) translateX(-10px);
+            }
+        }
+    }
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1
+    }
+}

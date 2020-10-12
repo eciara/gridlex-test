@@ -1,10 +1,29 @@
 .about {
+    &__aside {
+        align-items: center;
+        flex-direction: column;
+    }
+
     &__header {
         @include flexCenter;
     }
 
     &__copy {
         text-align: center;
+        color: #333;
+        padding: 0 2rem;
+    }
+
+    &__icon {
+        width: 7rem;
+        border: 2px solid $bg-icon;
+        border-radius: 50%;
+        height: 7rem;
+        margin-top: 2rem;
+
+        img {
+            width: 3rem;
+        }
     }
 
 }

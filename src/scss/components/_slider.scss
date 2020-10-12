@@ -1,0 +1,13 @@
+.slider {
+    padding: 0;
+
+    &__image {
+        background-image: url(../../img/slider-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: calc(100vh - 2.75rem - 20px);
+        width: 100%;
+        background-position: center;
+          margin: 0;
+    }
+}

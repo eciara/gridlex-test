@@ -1,0 +1,20 @@
+$font-path:'../fonts/';
+
+@mixin font-face($font-name, $file-name, $weight: normal, $style: normal) {
+    @font-face {
+        font-family: quote($font-name);
+        src: url('#{$font-path}'+ $file-name + '.ttf');
+        src: url('#{$font-path}'+ $file-name + '.otf?#iefix') format('embedded-opentype'),
+        url('#{$font-path}'+ $file-name + '.ttf') format('truetype'),
+        url('#{$font-path}'+ $file-name + '.otf') format('truetype');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+@include font-face('Lato-Bold', 'Lato/Lato-Bold');
+@include font-face('Lato-Light', 'Lato/Lato-Light');
+@include font-face('Lato-Regular', 'Lato/Lato-Regular');
+@include font-face('Montserrat-Bold', 'Montserrat/Montserrat-Bold');
+@include font-face('Montserrat-Regular', 'Montserrat/Montserrat-Regular');
+

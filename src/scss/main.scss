@@ -1,7 +1,7 @@
 //#settings
 @import 'partials/resset';
 @import 'partials/variables';
-
+@import 'partials/typography';
 
 //#base styles
 @import 'partials/base';
@@ -9,6 +9,7 @@
 
 //#components
 @import 'components/navigation';
+@import 'components/slider';
 @import 'components/about';
 @import 'components/portfolio';
 @import 'components/team';

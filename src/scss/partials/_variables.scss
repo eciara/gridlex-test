@@ -1,6 +1,10 @@
 //===================================================
 // GLOBAL VARIABLES
 //===================================================
+// Fonts
+$font-body: 'Lato-Light', sans-serif;
+$font-header: 'Montserrat-Regular', sans-serif;
+
 
 // Font-size 
 $golden-ratio: 1.333;
@@ -14,11 +18,13 @@ $font-size-6: $font-size-5 * $golden-ratio; //4.17
 $font-small: 0.90rem;
 
 // Colors
-$font-color-base: #141414;
+$font-color-copy: #777;
+$font-color-base: #222;
 $font-color-white: #fff;
-$bg-hover: rgba(103,213,181,0.8);
+$bg-hover: rgba(55, 200, 159,0.8);
 $bg-dark: rgba(14,14,14,.95);
 $bg-light: #f7f5f5;
+$bg-icon: #37c89f;
 // Fonts
 
 
@@ -28,6 +34,7 @@ $bg-light: #f7f5f5;
 //media query
 $extra-small: 'screen and (max-width: 450px)';
 $small: 'screen and (max-width: 576px)';
+$medium:  'screen and (min-width: 577px)';
 $min-tablet: 'screen and (min-width: 768px)'; //mediuym
 $max-tablet: 'screen and (max-width: 767px)';
 $tablet: 'screen and (max-width: 991px)';
