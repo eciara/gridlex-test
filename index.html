@@ -3,53 +3,76 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gridlex</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
-    <header>
-        <div class="grid">
-            <div class="col-8 navbar-header">Logo</div>
-            <nav class="col-4 navigation">
+    <header class="header">
+        <div class="grid header__nav">
+            <div class="col-6_xs-12 navigation__logo">Logo</div>
+            <nav class="col-6_xs-12 navigation">
                 <ul class="navigation__list grid-spaceAround">
-                    <li class="navigation__item col">Lorem</li>
-                    <li class="navigation__item col">Lorem</li>
-                    <li class="navigation__item col">Lorem</li>
-                    <li class="navigation__item col">Lorem</li>
+                    <li class="navigation__item col">
+                        <a href="#">lorem</a>
+                    </li>
+                    <li class="navigation__item col">
+                        <a href="#about">about</a>
+                    </li>
+                    <li class="navigation__item col">
+                        <a href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="navigation__item col">
+                        <a href="#team">team</a>
+                    </li>
+                    <li class="navigation__item col">
+                        <a href="#plan">plan</a>
+                    </li>
+                    <li class="navigation__item col">
+                        <a href="#contact">contact</a>
+                    </li>
                 </ul>
+                <button class="navigation__icon"></button>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="">
-            <div class="slider">slider</div>
+        <section class="slider">
+            <div class="grid slider__image"></div>
         </section>
         <section>
             <div class="about">
                 <div class="grid-center post">
-                    <div class="col-7_sm-12 post__header">
-                        <h2 class="post__title">about</h2>
-                        <p class="post__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
+                    <div class="col-7_sm-12 page__header">
+                        <h2 class="page__title">about</h2>
+                        <p class="page__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
                     </div>
                 </div>
                 <div class="grid">
-                    <div class="col-4_sm-12 grid-center
-                       about__aside">
-                        <div class="about__image"></div>
-                        <p class="about__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                    </div>
-                    <div class="col-4_sm-12 grid-center
-                       about__aside">
-                        <div class="about__figure">
+                    <div class="col-4_sm-12 grid-center about__aside">
+                        <div class="about__icon grid-center">
+                            <img src="img/icon/bookmark.svg" alt="">
                         </div>
+                        <h3 class="page__subtitle">Lorem</h3>
                         <p class="about__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                     </div>
                     <div class="col-4_sm-12 grid-center
                        about__aside">
-                        <div class="about__image"></div>
+                        <div class="about__icon grid-center">
+                            <img src="img/icon/cogs.svg" alt="">
+                        </div>
+                        <h3 class="page__subtitle">Lorem</h3>
+                        <p class="about__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="col-4_sm-12 grid-center
+                       about__aside">
+                        <div class="about__icon grid-center">
+                            <img src="img/icon/embed2.svg" alt="">
+                        </div>
+                        <h3 class="page__subtitle">lorem</h3>
                         <p class="about__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                     </div>
                 </div>
@@ -57,9 +80,27 @@
         </section>
         <section class="portfolio">
             <div class="grid-center post">
-                <div class="col-7_sm-12 post__header">
-                    <h2 class="post__title">Portfolio</h2>
-                    <p class="post__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
+                <div class="col-7_sm-12 page__header">
+                    <h2 class="page__title">Portfolio</h2>
+                    <div class="grid-center portfolio__filter buttons">
+                        <ul class="buttons__list">
+                            <li class="col buttons__item">
+                                <a href="#" role="button">
+                                    lorem
+                                </a>
+                            </li>
+                            <li class="col buttons__item">
+                                <a href="#" role="button">
+                                    lorem
+                                </a>
+                            </li>
+                            <li class="col buttons__item">
+                                <a href="#" role="button">
+                                    lorem
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -129,9 +170,9 @@
         <section>
             <div class="team">
                 <div class="grid-center post">
-                    <div class="col-7_xs-12 post__header">
-                        <h2 class="post__title">team</h2>
-                        <p class="post__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
+                    <div class="col-7_xs-12 page__header">
+                        <h2 class="page__title">team</h2>
+                        <p class="page__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
                     </div>
                 </div>
                 <div class="grid team__body">
@@ -141,69 +182,49 @@
                     </div>
                     <div class="col-6_sm-12 grid-center grid-column">
                         <div class="team__aside">
-                            <h2 class="team__title">Lorem ipsum</h2>
-                            <div class="grid">
+                            <h2 class="page__subtitle">Lorem ipsum</h2>
+                            <div class="grid-middle team__block">
                                 <div class="col-2 grid-center team__icon">
-                                    icon
+                                    <img src="img/icon/facebook.svg" alt="">
                                 </div>
                                 <div class="col-10">
                                     <p class="team__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                                 </div>
                             </div>
-                            <div class="grid">
+                            <div class="grid-middle team__block">
                                 <div class="col-2 grid-center team__icon">
-                                    icon
+                                    <img src="img/icon/twitter.svg" alt="">
                                 </div>
                                 <div class="col-10">
                                     <p class="team__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                                 </div>
                             </div>
-                            <div class="grid">
-                                <div class="col-2 grid-center team__icon">
-                                    icon
+                            <div class="grid-middle team__block">
+                                <div class="col-2 grid-center team__icon team__icon--three">
+                                    <img src="img/icon/whatsapp.svg" alt="">
                                 </div>
                                 <div class="col-10">
                                     <p class="team__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="grid team__body">
-                    <div class="col-6_sm-12 grid-center grid-column">
-                        <div class="team__aside">
-                            <h2 class="team__title">Lorem ipsum</h2>
-                            <p class="team__copy">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique distinctio, iste possimus qui earum odit eius fugit, quis sequi ex autem temporibus alias vel et error molestias. Asperiores, modi, ad?
-                            </p>
-                            <div class="team__progress">
-                                <p class="progress__title">Lorem ipsum</p>
-                                <div class="progress__bar" data-width="80">
-                                    <span>80%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6_sm-12 grid-center
-                       team__image">
-                        <img src="img/bg_team2.jpg" alt="">
                     </div>
                 </div>
             </div>
         </section>
         <section class="plan">
             <div class="grid-center post">
-                <div class="col-7_sm-12 post__header">
-                    <h2 class="post__title">plan</h2>
-                    <p class="post__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
+                <div class="col-7_sm-12 page__header">
+                    <h2 class="page__title">plan</h2>
+                    <p class="page__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
                 </div>
             </div>
         </section>
         <section class="conatct">
             <div class="grid-center grid-1 post">
-                <div class="col-7_sm-12 post__header">
-                    <h2 class="post__title">conatct</h2>
-                    <p class="post__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
+                <div class="col-7_sm-12 page__header">
+                    <h2 class="page__title">conatct</h2>
+                    <p class="page__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
                 </div>
             </div>
         </section>
