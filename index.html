@@ -10,40 +10,41 @@
 </head>
 
 <body>
+
     <header class="header">
         <div class="grid header__nav">
-            <div class="col-6_xs-12 navigation__logo">Logo</div>
-            <nav class="col-6_xs-12 navigation">
-                <ul class="navigation__list grid-spaceAround">
-                    <li class="navigation__item col">
+            <div class="col-2_xs-12 navigation__logo">Logo</div>
+            <nav class="col-10_xs-12 navigation">
+                <ul class="navigation__list grid-md-right grid-sm-center">
+                    <li class="navigation__item">
                         <a href="#">lorem</a>
                     </li>
-                    <li class="navigation__item col">
+                    <li class="navigation__item">
                         <a href="#about">about</a>
                     </li>
-                    <li class="navigation__item col">
+                    <li class="navigation__item">
                         <a href="#portfolio">portfolio</a>
                     </li>
-                    <li class="navigation__item col">
+                    <li class="navigation__item">
                         <a href="#team">team</a>
                     </li>
-                    <li class="navigation__item col">
+                    <li class="navigation__item">
                         <a href="#plan">plan</a>
                     </li>
-                    <li class="navigation__item col">
+                    <li class="navigation__item">
                         <a href="#contact">contact</a>
                     </li>
                 </ul>
                 <button class="navigation__icon"></button>
             </nav>
         </div>
+        <div class="slider">
+            <div class="grid slider__image"></div>
+        </div>
     </header>
 
     <main>
-        <section class="slider">
-            <div class="grid slider__image"></div>
-        </section>
-        <section>
+        <section id="about">
             <div class="about">
                 <div class="grid-center post">
                     <div class="col-7_sm-12 page__header">
@@ -78,7 +79,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="grid-center post">
                 <div class="col-7_sm-12 page__header">
                     <h2 class="page__title">Portfolio</h2>
@@ -167,7 +168,7 @@
             </div>
 
         </section>
-        <section>
+        <section id="team">
             <div class="team">
                 <div class="grid-center post">
                     <div class="col-7_xs-12 page__header">
@@ -175,6 +176,7 @@
                         <p class="page__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
                     </div>
                 </div>
+
                 <div class="grid team__body">
                     <div class="col-6_sm-12 grid-center
                        team__image">
@@ -210,9 +212,82 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div class="team__list grid-center">
+                    <div class="col-10_sm-12 grid">
+                        <div class="col-4_sm-12 team__item">
+                            <div class="team__figure">
+                                <div class="team__image">
+                                    <div class="col">
+                                        <img src="img/2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__hover">
+                                <div class="team-profile-info">
+                                    <div class="team__social">
+                                        <a href="#" class="fa fa-facebook"></a>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        <a href="#" class="fa fa-google-plus"></a>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                    </div>
+                                    <div class="team__name">Lorem Lorem</div>
+                                    <div class="team__profile">Creative Designer</div>
+                                    <p class="team__descr small">Suspendisse euismod aliquam eros, finibus tincidunt velit laoreet vitae </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4_sm-12 team__item grid-center">
+                            <div class="team__figure">
+                                <div class="team__image">
+                                    <div class="col">
+                                        <img src="img/2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__hover">
+                                <div class="team-profile-info">
+                                    <div class="team__social">
+                                        <a href="#" class="fa fa-facebook"></a>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        <a href="#" class="fa fa-google-plus"></a>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                    </div>
+                                    <div class="team__name">Lorem Lorem</div>
+                                    <div class="team__profile">Creative Designer</div>
+                                    <p class="team__descr small">Suspendisse euismod aliquam eros, finibus tincidunt velit laoreet vitae </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4_sm-12 team__item grid-center">
+                            <div class="team__figure">
+                                <div class="team__image">
+                                    <div class="col">
+                                        <img src="img/2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__hover">
+                                <div class="team-profile-info">
+                                    <div class="team__social">
+                                        <a href="#" class="fa fa-facebook"></a>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        <a href="#" class="fa fa-google-plus"></a>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                    </div>
+                                    <div class="team__name">Lorem Lorem</div>
+                                    <div class="team__profile">Creative Designer</div>
+                                    <p class="team__descr small">Suspendisse euismod aliquam eros, finibus tincidunt velit laoreet vitae </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="plan">
+
+        <section class="plan" id="plan">
             <div class="grid-center post">
                 <div class="col-7_sm-12 page__header">
                     <h2 class="page__title">plan</h2>
@@ -220,10 +295,10 @@
                 </div>
             </div>
         </section>
-        <section class="conatct">
+        <section class="conatct" id="contact">
             <div class="grid-center grid-1 post">
                 <div class="col-7_sm-12 page__header">
-                    <h2 class="page__title">conatct</h2>
+                    <h2 class="page__title">Contact</h2>
                     <p class="page__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
                 </div>
             </div>
