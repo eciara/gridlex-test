@@ -44,7 +44,9 @@
     }
 
     &__buttons {
-
+        font-size: 2.5rem;
+         color: $font-color-white;
+        
         &--prev,
         &--next {
             position: absolute;

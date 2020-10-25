@@ -2,9 +2,10 @@
 // GLOBAL VARIABLES
 //===================================================
 // Fonts
-$font-body: 'Lato-Light', sans-serif;
-$font-header: 'Montserrat-Regular', sans-serif;
-
+$font-body: 'Lato-Light',
+sans-serif;
+$font-header: 'Montserrat-Regular',
+sans-serif;
 
 // Font-size 
 $golden-ratio: 1.333;
@@ -21,8 +22,8 @@ $font-small: 0.90rem;
 $font-color-copy: #777;
 $font-color-base: #222;
 $font-color-white: #fff;
-$bg-hover: rgba(55, 200, 159,0.8);
-$bg-dark: rgba(14,14,14,.95);
+$bg-hover: rgba(55, 200, 159, 0.8);
+$bg-dark: rgba(14, 14, 14, .95);
 $bg-light: #f7f5f5;
 $bg-icon: #37c89f;
 // Fonts
@@ -34,15 +35,28 @@ $bg-icon: #37c89f;
 //media query
 $extra-small: 'screen and (max-width: 450px)';
 $small: 'screen and (max-width: 576px)';
-$medium:  'screen and (min-width: 577px)';
+$medium: 'screen and (min-width: 577px)';
 $min-tablet: 'screen and (min-width: 768px)'; //mediuym
 $max-tablet: 'screen and (max-width: 767px)';
 $tablet: 'screen and (max-width: 991px)';
 $large: 'screen and (min-width: 992px)';
 
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
 
+    100% {
+        opacity: 1;
+    }
+}
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
 
-
-
-
+    100% {
+        opacity: 1;
+    }
+}

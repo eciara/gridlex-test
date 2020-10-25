@@ -6,7 +6,7 @@
     }
 
     &__aside {
-        padding: 2rem 0 2rem 2rem;
+        padding: 3rem 0 2rem 2rem;
     }
 
     &__image {
@@ -17,14 +17,85 @@
 
     &__block {
         padding: 1rem 0;
+
+        .page__subtitle {
+            padding: 0.5rem 0;
+        }
     }
 
     &__icon {
-        img {
+        i {
             text-align: center;
-            padding: 1rem;
             border-radius: 50%;
             background: $bg-icon;
+            color: $font-color-white;
+            font-size: $font-size-2;
+            width: 4rem;
+            height: 4rem;
+            line-height: 4rem;
         }
     }
+
+    &__list {
+        padding: 3rem 0;
+
+        .col-4_sm-12 {
+            max-width: 28.333%;
+            margin: 1rem;
+        }
+    }
+
+    &__item {
+        position: relative;
+        cursor: pointer;
+        height: 20rem;
+        overflow: hidden;
+
+        &:hover .hover {
+            opacity: 1;
+        }
+    }
+
+    &__hover {
+        @include flexCenter;
+    }
+
+    &__social {
+        padding-bottom: 1rem;
+
+        i {
+            color: $font-color-white;
+            font-size: 1.35rem;
+            padding: 0 .25rem;
+        }
+    }
+
+    &__name {
+        font-weight: 600;
+        font-size: 1.15rem;
+    }
+
+    &__profile {
+        color: $font-color-base;
+    }
+
+    &__figure {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+
+        &--1 {
+            background-image: url(../../img/team/person-1.jpg);
+        }
+
+        &--2 {
+            background-image: url(../../img/team/person-2.jpg);
+        }
+
+        &--3 {
+            background-image: url(../../img/team/person-3.jpg);
+        }
+    }
+
 }

@@ -1,0 +1,51 @@
+.price {
+    padding: 3rem 0;
+
+    &__box {
+        margin: 1rem;
+        text-align: center;
+        border: 2px solid $bg-light;
+        padding: 0;
+
+        &--active {
+            border-color: $bg-icon;
+        }
+    }
+
+    &__header {
+        background-color: $bg-light;
+        padding: 2rem 0;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        &--active {
+            background-color: $bg-icon;
+            color: #fff;
+        }
+
+    }
+
+    &__amount {
+        font-family: $font-header;
+        font-size: $font-size-3;
+        line-height: 2;
+    }
+
+    &__features {
+        padding: 2rem 0;
+
+        li {
+            position: relative;
+            padding-bottom: 1.5rem;
+
+            .fa {
+                position: absolute;
+                top: 2px;
+                left: 2rem;
+                font-size: $font-small;
+            }
+        }
+    }
+
+
+}

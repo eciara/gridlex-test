@@ -68,24 +68,6 @@
         }
     }
 
-    &__hover {
-        position: absolute;
-        overflow: hidden;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        opacity: 0;
-        color: $font-color-white;
-        -webkit-transform: translateZ(0);
-        -ms-transform: translateZ(0);
-        transform: translateZ(0);
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease;
-        width: 104%;
-        height: 100%;
-        background-color: $bg-hover;
-    }
-
     &__copy {
         @extend .page__subtitle;
         padding: 0;
@@ -116,4 +98,22 @@
             }
         }
     }
+}
+
+.hover {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: $font-color-white;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    width: 104%;
+    height: 100%;
+    background-color: $bg-hover;
 }

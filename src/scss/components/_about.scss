@@ -15,14 +15,13 @@
     }
 
     &__icon {
-        width: 7rem;
-        border: 2px solid $bg-icon;
-        border-radius: 50%;
-        height: 7rem;
         margin-top: 2rem;
-
-        img {
-            width: 3rem;
+        border: 2px solid $bg-icon;
+        color: $bg-hover;
+        padding: 2rem;
+        border-radius: 50%;
+        i {
+            font-size: 2rem;
         }
     }
 
