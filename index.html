@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gridlex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -61,8 +62,13 @@
                 </div>
             </div>
             <div class="slider__buttons">
-                <img src="img/icon/circle-left.svg" class="slider__buttons--prev" />
-                <img src="img/icon/circle-right.svg" class="slider__buttons--next" />
+                <div class="slider__buttons--prev">
+                    <i class="fas fa-angle-left"></i>
+                </div>
+                <div class="slider__buttons--next">
+                    <i class="fas fa-angle-right"></i>
+                </div>
+
             </div>
         </div>
     </header>
@@ -79,7 +85,7 @@
                 <div class="grid">
                     <div class="col-4_sm-12 grid-center about__aside">
                         <div class="about__icon grid-center">
-                            <img src="img/icon/bookmark.svg" alt="">
+                            <i class="far fa-chart-bar"></i>
                         </div>
                         <h3 class="page__subtitle">Lorem</h3>
                         <p class="about__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
@@ -87,7 +93,7 @@
                     <div class="col-4_sm-12 grid-center
                        about__aside">
                         <div class="about__icon grid-center">
-                            <img src="img/icon/cogs.svg" alt="">
+                            <i class="fas fa-chart-pie"></i>
                         </div>
                         <h3 class="page__subtitle">Lorem</h3>
                         <p class="about__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
@@ -95,7 +101,7 @@
                     <div class="col-4_sm-12 grid-center
                        about__aside">
                         <div class="about__icon grid-center">
-                            <img src="img/icon/embed2.svg" alt="">
+                            <i class="fas fa-comments"></i>
                         </div>
                         <h3 class="page__subtitle">lorem</h3>
                         <p class="about__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
@@ -132,7 +138,7 @@
             <div class="grid">
                 <div class="col-3_xs-12 grid-equalHeight portfolio__item">
                     <div class="portfolio__image portfolio__image--1"></div>
-                    <div class="portfolio__hover grid-center grid-middle">
+                    <div class="portfolio__hover hover grid-center grid-middle">
                         <span class="portfolio__copy">Lorem Ipsum</span>
                     </div>
                 </div>
@@ -140,21 +146,21 @@
                     <div class="col-6_xs-12 portfolio__item">
                         <div class="portfolio__image portfolio__image--2">
                         </div>
-                        <div class="portfolio__hover grid-center grid-middle">
+                        <div class="portfolio__hover hover grid-center grid-middle">
                             <span class="portfolio__copy">Lorem Ipsum</span>
                         </div>
                     </div>
                     <div class="col-6_xs-12 portfolio__item">
                         <div class="portfolio__image portfolio__image--3">
                         </div>
-                        <div class="portfolio__hover grid-center grid-middle">
+                        <div class="portfolio__hover hover grid-center grid-middle">
                             <span class="portfolio__copy">Lorem Ipsum</span>
                         </div>
                     </div>
                     <div class="col-12 portfolio__item">
                         <div class="portfolio__image portfolio__image--5">
                         </div>
-                        <div class="portfolio__hover grid-center grid-middle">
+                        <div class="portfolio__hover hover grid-center grid-middle">
                             <span class="portfolio__copy">Lorem Ipsum</span>
                         </div>
                     </div>
@@ -162,7 +168,7 @@
                 <div class="col-3_xs-12 grid-equalHeight portfolio__item">
                     <div class="portfolio__image portfolio__image--4">
                     </div>
-                    <div class="portfolio__hover grid-center grid-middle">
+                    <div class="portfolio__hover hover grid-center grid-middle">
                         <span class="portfolio__copy">Lorem Ipsum</span>
                     </div>
                 </div>
@@ -171,21 +177,21 @@
                 <div class="col-4_xs-12 portfolio__item">
                     <div class="portfolio__image portfolio__image--6">
                     </div>
-                    <div class="portfolio__hover grid-center grid-middle">
+                    <div class="portfolio__hover hover grid-center grid-middle">
                         <span class="portfolio__copy">Lorem Ipsum</span>
                     </div>
                 </div>
                 <div class="col-4_xs-12 portfolio__item">
                     <div class="portfolio__image portfolio__image--7">
                     </div>
-                    <div class="portfolio__hover grid-center grid-middle">
+                    <div class="portfolio__hover hover grid-center grid-middle">
                         <span class="portfolio__copy">Lorem Ipsum</span>
                     </div>
                 </div>
                 <div class="col-4_xs-12 portfolio__item">
                     <div class="portfolio__image portfolio__image--8">
                     </div>
-                    <div class="portfolio__hover grid-center grid-middle">
+                    <div class="portfolio__hover hover grid-center grid-middle">
                         <span class="portfolio__copy">Lorem Ipsum</span>
                     </div>
                 </div>
@@ -201,6 +207,77 @@
                     </div>
                 </div>
 
+                <div class="team__list grid-center">
+                    <div class="col-10_sm-12 grid">
+                        <div class="col-4_sm-12 team__item grid-center">
+                            <div class="team__figure team__figure--1">
+                            </div>
+                            <div class="team__hover hover">
+                                <div class="team__social">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <p class="team__name">Lorem Lorem</p>
+                                <p class="team__profile">Creative Designer</p>
+                            </div>
+                        </div>
+                        <div class="col-4_sm-12 team__item grid-center">
+                            <div class="team__figure team__figure--2">
+                            </div>
+                            <div class="team__hover hover">
+                                <div class="team__social">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <p class="team__name">Lorem Lorem</p>
+                                <p class="team__profile">Creative Designer</p>
+                            </div>
+                        </div>
+                        <div class="col-4_sm-12 team__item grid-center">
+                            <div class="team__figure team__figure--3">
+                            </div>
+                            <div class="team__hover hover">
+                                <div class="team__social">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <p class="team__name">Lorem Lorem</p>
+                                <p class="team__profile">Creative Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="grid team__body">
                     <div class="col-6_sm-12 grid-center
                        team__image">
@@ -209,100 +286,31 @@
                     <div class="col-6_sm-12 grid-center grid-column">
                         <div class="team__aside">
                             <h2 class="page__subtitle">Lorem ipsum</h2>
-                            <div class="grid-middle team__block">
+                            <div class="grid-center team__block">
                                 <div class="col-2 grid-center team__icon">
-                                    <img src="img/icon/facebook.svg" alt="">
+                                    <i class="fas fa-chart-area"></i>
                                 </div>
                                 <div class="col-10">
+                                    <h3 class="page__subtitle">Lorem</h3>
                                     <p class="team__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                                 </div>
                             </div>
-                            <div class="grid-middle team__block">
+                            <div class="grid-center team__block">
                                 <div class="col-2 grid-center team__icon">
-                                    <img src="img/icon/twitter.svg" alt="">
+                                    <i class="fas fa-bookmark"></i>
                                 </div>
                                 <div class="col-10">
+                                    <h3 class="page__subtitle">Lorem</h3>
                                     <p class="team__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                                 </div>
                             </div>
-                            <div class="grid-middle team__block">
+                            <div class="grid-center team__block">
                                 <div class="col-2 grid-center team__icon team__icon--three">
-                                    <img src="img/icon/whatsapp.svg" alt="">
+                                    <i class="far fa-images"></i>
                                 </div>
                                 <div class="col-10">
+                                    <h3 class="page__subtitle">Lorem</h3>
                                     <p class="team__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="team__list grid-center">
-                    <div class="col-10_sm-12 grid">
-                        <div class="col-4_sm-12 team__item">
-                            <div class="team__figure">
-                                <div class="team__image">
-                                    <div class="col">
-                                        <img src="img/2.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team__hover">
-                                <div class="team-profile-info">
-                                    <div class="team__social">
-                                        <a href="#" class="fa fa-facebook"></a>
-                                        <a href="#" class="fa fa-twitter"></a>
-                                        <a href="#" class="fa fa-google-plus"></a>
-                                        <a href="#" class="fa fa-linkedin"></a>
-                                    </div>
-                                    <div class="team__name">Lorem Lorem</div>
-                                    <div class="team__profile">Creative Designer</div>
-                                    <p class="team__descr small">Suspendisse euismod aliquam eros, finibus tincidunt velit laoreet vitae </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4_sm-12 team__item grid-center">
-                            <div class="team__figure">
-                                <div class="team__image">
-                                    <div class="col">
-                                        <img src="img/2.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team__hover">
-                                <div class="team-profile-info">
-                                    <div class="team__social">
-                                        <a href="#" class="fa fa-facebook"></a>
-                                        <a href="#" class="fa fa-twitter"></a>
-                                        <a href="#" class="fa fa-google-plus"></a>
-                                        <a href="#" class="fa fa-linkedin"></a>
-                                    </div>
-                                    <div class="team__name">Lorem Lorem</div>
-                                    <div class="team__profile">Creative Designer</div>
-                                    <p class="team__descr small">Suspendisse euismod aliquam eros, finibus tincidunt velit laoreet vitae </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4_sm-12 team__item grid-center">
-                            <div class="team__figure">
-                                <div class="team__image">
-                                    <div class="col">
-                                        <img src="img/2.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team__hover">
-                                <div class="team-profile-info">
-                                    <div class="team__social">
-                                        <a href="#" class="fa fa-facebook"></a>
-                                        <a href="#" class="fa fa-twitter"></a>
-                                        <a href="#" class="fa fa-google-plus"></a>
-                                        <a href="#" class="fa fa-linkedin"></a>
-                                    </div>
-                                    <div class="team__name">Lorem Lorem</div>
-                                    <div class="team__profile">Creative Designer</div>
-                                    <p class="team__descr small">Suspendisse euismod aliquam eros, finibus tincidunt velit laoreet vitae </p>
                                 </div>
                             </div>
                         </div>
@@ -316,6 +324,126 @@
                 <div class="col-7_sm-12 page__header">
                     <h2 class="page__title">plan</h2>
                     <p class="page__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut qui laborum modi, nam alias suscipit at non. Tenetur optio, nam ex earum beatae, perferendis officiis, maiores distinctio reiciendis, fugit libero.</p>
+                </div>
+                
+                <div class="col-10_sm-12 grid-center price">
+                    <div class="col price__box">
+                        <div class="price__header">
+                            <h4 class="price__title">Platinum Plan</h4>
+                            <div class="">
+                                <span class="price__currency">$</span>
+                                <span class="price__amount">399</span>
+                                <div class="price__period">Per Month</div>
+                            </div>
+                        </div>
+                        <div class="price__features">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                   lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                            </ul>
+                            <a href="#" class="price__btn">Order Now</a>
+                        </div>
+                    </div>
+                      <div class="col price__box price__box--active">
+                        <div class="price__header price__header--active">
+                            <h4 class="price__title">Platinum Plan</h4>
+                            <div class="">
+                                <span class="price__currency">$</span>
+                                <span class="price__amount">399</span>
+                                <div class="price__period">Per Month</div>
+                            </div>
+                        </div>
+                        <div class="price__features">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                   lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                            </ul>
+                            <a href="#" class="price__btn price__btn--active">Order Now</a>
+                        </div>
+                    </div>
+                      <div class="col price__box">
+                        <div class="price__header">
+                            <h4 class="price__title">Platinum Plan</h4>
+                            <div class="">
+                                <span class="price__currency">$</span>
+                                <span class="price__amount">399</span>
+                                <div class="price__period">Per Month</div>
+                            </div>
+                        </div>
+                        <div class="price__features">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i>
+                                    lorem
+                                </li>
+                            </ul>
+                            <a href="#" class="price__btn">Order Now</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
