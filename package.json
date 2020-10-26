@@ -10,7 +10,11 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.12",
+    "grunt-grunticon": "^2.3.2",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "sass-svg": "^1.2.0"
   }
 }
