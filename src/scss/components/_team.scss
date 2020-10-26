@@ -30,19 +30,22 @@
             background: $bg-icon;
             color: $font-color-white;
             font-size: $font-size-2;
-            width: 4rem;
-            height: 4rem;
-            line-height: 4rem;
+            width: 5rem;
+            height: 5rem;
+            line-height: 5rem;
         }
     }
 
     &__list {
         padding: 3rem 0;
 
-        .col-4_sm-12 {
-            max-width: 28.333%;
-            margin: 1rem;
+        @media screen and (min-width: 944px) {
+            .col-4_sm-12 {
+                max-width: 29.333%;
+                margin: 1rem auto;
+            }
         }
+
     }
 
     &__item {
@@ -62,12 +65,6 @@
 
     &__social {
         padding-bottom: 1rem;
-
-        i {
-            color: $font-color-white;
-            font-size: 1.35rem;
-            padding: 0 .25rem;
-        }
     }
 
     &__name {

@@ -94,6 +94,7 @@
             &:hover {
                 background-color: $bg-hover;
                 color: $font-color-white;
+                border: 2px solid $bg-icon;
 
             }
         }

@@ -1,0 +1,83 @@
+.contact {
+    background-image: url(../../img/bg-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    
+    &__aside {
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+    
+    &__block {
+        padding-bottom: 2rem;
+        a {
+            color: #fff;
+            &:hover {
+                color: $bg-icon;
+            }
+        }
+    }
+
+    &__icon {
+        i {
+            border: 2px solid #fff;
+            width: 4.5rem;
+            height: 4.5rem;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 4.5rem;
+            font-size: 1.33rem;
+            &:hover {
+            color: $bg-icon;
+        }
+        }
+    }
+
+    .page__subtitle {
+        padding: 0 0 .75rem;
+        font-size: $font-small;
+    }
+}
+
+.form {
+    padding-top: 3rem;
+
+    &__control {
+        width: 100%;
+        color: #fff;
+        background-color: transparent;
+        padding: .75rem;
+        font-size: $font-small;
+        margin-bottom: 1rem;
+
+        &:focus,
+        &:hover {
+            border-color: $bg-icon;
+            outline: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        &::placeholder {
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+    }
+
+    &__btn {
+        background-color: transparent;
+        padding: .75rem 1.25rem;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 1px;
+
+        &:focus,
+        &:hover {
+            background-color: #fff;
+            color: #222;
+        }
+    }
+
+}

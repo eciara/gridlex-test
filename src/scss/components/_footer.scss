@@ -1,0 +1,21 @@
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    &__copy {
+        padding: 0;
+        a {
+            color: $bg-icon;
+        }
+    }
+    &__social {
+        align-self: center;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+
+        i {
+            font-size: $font-small;
+        }
+    }
+}

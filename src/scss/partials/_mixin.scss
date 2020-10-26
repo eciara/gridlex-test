@@ -19,15 +19,20 @@
     justify-content: center;
 }
 
-
-@mixin flexBetween {
-    @include flex;
-    justify-content: space-between;
+// mixin  Pseudo-elementy 
+@mixin afterBefore($bg-color:null, $top:null, $left:null) {
+    content: '';
+    position: absolute;
+    margin: 0 auto;
+    background-color: $bg-color;
+    top: $top;
+    left: $left;
+    transform: translate(-50%, 0);
 }
 
-@mixin flexJustifyCenter {
-    @include flex;
-    justify-content: center;
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
 }
 
 @mixin svg($svg) {
